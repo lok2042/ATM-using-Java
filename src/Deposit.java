@@ -9,7 +9,7 @@ import java.util.Date;
  */
 public class Deposit extends TransactionOption {
 
-    // Maximum RM 3,000.00 per transaction, 3 times per day allowed
+    // Maximum $3,000.00 per transaction, 3 times per day allowed
     private static final double TRANSACTION_AMOUNT_LIMIT = 3000.00;
     private static final int TRANSACTION_NUMBER_LIMIT = 3;
 
