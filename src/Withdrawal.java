@@ -9,7 +9,7 @@ import java.util.Date;
  */
 public class Withdrawal extends TransactionOption {
 
-    // Maximum RM 1,500.00 per transaction, 3 times per day allowed
+    // Maximum $1,500.00 per transaction, 3 times per day allowed
     private static final double TRANSACTION_AMOUNT_LIMIT = 1500.00;
     private static final int TRANSACTION_NUMBER_LIMIT = 3;
 
